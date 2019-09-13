@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 import * as commander from 'commander';
-import example from './lib/example'
+import create from './lib/create';
+import display from './lib/display';
 
 const program = new commander.Command();
 
@@ -10,6 +11,7 @@ program.version(require('../package.json').version);
 
 // Add debug flag for debugging
 program
+  .option('-c, --create', 'create performance budget')
   .option('-o, --output', 'path to output file')
   .option('-d, --debug', 'output extra debugging')
 
@@ -30,4 +32,9 @@ if (program.debug) {
   });
 }
 
-console.log(example());
+// Add useful custom help text
+if (program.create) {
+  create().then(display).then(() =>{
+    process.exit()
+  });
+}

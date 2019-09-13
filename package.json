@@ -1,7 +1,7 @@
 {
   "name": "perfbudget",
   "version": "1.0.0",
-  "description": "CLI for ",
+  "description": "CLI for creating a performance budget",
   "main": "build/index.js",
   "bin": {
     "perfbudget": "./dist/cli.js"
@@ -28,7 +28,11 @@
     "ts-node": "^8.3.0"
   },
   "dependencies": {
+    "@types/cli-table": "^0.3.0",
+    "@types/inquirer": "^6.5.0",
+    "cli-table": "^0.3.1",
     "commander": "^3.0.1",
+    "inquirer": "^7.0.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
   }
