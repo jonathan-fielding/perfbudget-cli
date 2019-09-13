@@ -1,12 +1,12 @@
-# example cli
+# `perfbudget` cli
 
-This is a example template for a CLI written in Typescript.
+A CLI for creating and testing a performance budget.
 
 ## Setup
 
-To setup `example-cli` you will need to:
+To setup `perfbudget` you will need to:
 
-1 - clone https://github.com/jonathan-fielding/typescript-cli-template.git
+1 - clone https://github.com/jonathan-fielding/perfbudget-cli.git
 
 2 - run `npm i`
 
@@ -14,11 +14,11 @@ To setup `example-cli` you will need to:
 
 4 - run `npm link`
 
-## Using `example-cli`
+## Using `perfbudget`
 
-The simplest way to use `example-cli` is to run the CLI along with the file you want to run it against. e.g
+The simplest way to use `perfbudget` is to run the CLI along with the file you want to run it against. e.g
 
-```example-cli```
+```perfbudget```
 
 ### Additional Options:
 

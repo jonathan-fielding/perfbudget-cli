@@ -1,14 +1,14 @@
 {
-  "name": "example-cli",
+  "name": "perfbudget",
   "version": "1.0.0",
   "description": "CLI for ",
   "main": "build/index.js",
   "bin": {
-    "example-cli": "./dist/cli.js"
+    "perfbudget": "./dist/cli.js"
   },
   "scripts": {
     "test": "jest",
-    "example-cli": "ts-node ./src/cli.ts",
+    "perfbudget": "ts-node ./src/cli.ts",
     "clean": "rm -rf ./dist",
     "build": "tsc",
     "check-types": "tsc --noEmit"
