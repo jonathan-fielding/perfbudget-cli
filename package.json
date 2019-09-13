@@ -1,11 +1,12 @@
 {
-  "name": "perfbudget-cli",
-  "version": "0.0.1",
+  "name": "performancebudget-io",
+  "version": "0.0.2",
   "description": "CLI for creating a performance budget",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "bin": {
     "perfbudget": "./dist/cli.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "test": "jest",
     "perfbudget": "ts-node ./src/cli.ts",
