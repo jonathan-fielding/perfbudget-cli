@@ -2,17 +2,11 @@
 
 A CLI for creating and testing a performance budget.
 
-## Setup
+## Installing
 
-To setup `perfbudget` you will need to:
+To install use npm to install globally:
 
-1 - clone https://github.com/jonathan-fielding/perfbudget-cli.git
-
-2 - run `npm i`
-
-3 - run `npm run build`
-
-4 - run `npm link`
+```npm i performancebudget-io -g```
 
 ## Using `perfbudget`
 
@@ -24,7 +18,20 @@ The simplest way to use `perfbudget` is to run the CLI along with the file you w
 
 `-v`, `--version` -  output the version number
 
-`-d`, `--debug` - output extra debugging
+`-c`, `--create` - create a new budget
+
+`-o`, `--output <path>` - specify an output path to export as lighthouse budget (use with --create)
 
 `-h`, `--help` - output usage information
 
+`-d`, `--debug` - output extra debugging
+
+## Contributing
+
+To setup `perfbudget` for development you will need to:
+
+1 - clone https://github.com/jonathan-fielding/perfbudget-cli.git
+
+2 - run `npm i`
+
+3 - run `npm run perfbudget -- <OPTIONS>` to run the development

@@ -1,6 +1,6 @@
 {
   "name": "performancebudget-io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI for creating a performance budget",
   "main": "dist/index.js",
   "bin": {
