@@ -44,7 +44,4 @@ export default async function display(budget: any) {
   console.log('');
   console.log('*** Loadtimes for budget ***');
   console.log(speedsTable.toString());
-
-  
-
 }

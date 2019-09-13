@@ -85,11 +85,11 @@ export default async function create() {
   }]);
 
   return {
-    css: css.kb,
-    html: html.kb,
-    javascript: javascript.kb,
-    fonts: fonts.kb,
-    images: images.kb,
-    video: video.kb,
+    css: parseFloat(css.kb),
+    html: parseFloat(html.kb),
+    javascript: parseFloat(javascript.kb),
+    fonts: parseFloat(fonts.kb),
+    images: parseFloat(images.kb),
+    video: parseFloat(video.kb),
   };
 }
